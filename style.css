@@ -1,0 +1,201 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'Roboto Bold';
+    src: url('fonts/roboto/Roboto-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Roboto';
+    src: url('fonts/roboto/Roboto-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+header{
+    background-color: #1f1f11;
+    
+}
+
+a{
+    text-decoration: none;
+}
+
+.cabecalho {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 24px;
+}
+      
+.cabecalho-imagem {
+    height: 72px;
+    
+}
+      
+.cabecalho-menu {
+    display: flex;
+    gap: 32px;
+}
+      
+.cabecalho-menu-item {
+    font-family: 'Roboto', sem serifa;;/*trocar fonte*/
+    color: white;
+    font-weight: 400px;
+    font-size: 18px
+    
+}
+
+main{
+    margin-bottom: 48px;
+    border-top: 0.4px solid #1a1919;
+}
+  
+.conteudo-principal {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+  
+.conteudo-principal-escrito {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+  
+h1{
+    font-family: 'Roboto Bold', 'Arial Narrow Bold', sans-serif;
+    font-weight: 400;
+    font-size: 70px;
+    color: #2d9b87;
+    line-height: 0px;
+}
+  
+h2{
+    font-family:'Roboto Bold', 'Arial Narrow Bold', sans-serif;
+    font-weight: 400;
+    font-size: 35px;
+    color: #2d9b87;
+}
+p{
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+}
+  
+.conteudo-principal-escrito-botao {
+    background-color: #24cdae;
+    width: 180px;
+    height: 60px;
+    border: none;
+    box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    font-family: 'Sarala', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    color: #ffffff;
+}
+  
+.conteudo-principal-escrito-botao:hover {
+    background-color: #24cdaedd;
+}
+
+.imagem {
+    height: 400px;
+}
+.google{
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: space-around;
+    gap: 10px 30px;
+}
+#1{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    gap: 15px;
+}
+#centro{
+    text-align: center;
+}
+#2{
+    height: 200px;
+}
+.suporte{
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: space-around;
+    gap: 10px 30px;
+}
+#3{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    gap: 15px;
+}
+#cent{
+    text-align: center;
+}
+#4{
+    height: 200px;
+}
+#align{
+    text-align: center;
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    border-radius: 5px;
+    box-shadow: 7px 7px 13px 0px rgba(50, 50, 50, 0.22);
+    padding: 30px;
+    margin: 20px;
+    width: 200px;
+    transition: all 0.3s ease-out;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    cursor: pointer;
+}
+   
+.card p {
+    color: #a3a5ae;
+    font-size: 16px;
+}
+   
+.image {
+    float: right;
+    max-width: 60px;
+    max-height: 60px;
+}
+
+.blue {
+    border-left: 3px solid #4895ff;
+}
+
+.final{
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: space-around;
+    gap: 10px 30px;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+.redesocial{
+    height: 30px;
+    gap: 10px;
+}
