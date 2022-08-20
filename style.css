@@ -12,24 +12,41 @@
     font-style: normal;
 }
 header{
-    background-color: #1f1f11;
-    
+    background-color: rgb(28,28,52);
 }
 
 a{
     text-decoration: none;
 }
 
+
 .cabecalho {
     display: flex;
     flex-direction: row;
     align-items: center;
+    flex-wrap: wrap;
     justify-content: space-around;
     padding: 24px;
+}
+.cabecalho-2 {
+    background-color: #2d9b87;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 24px;
+    gap: 30px;
+    
 }
       
 .cabecalho-imagem {
     height: 72px;
+    
+}
+.cabecalho-imagem-2 {
+    height: 62px;
+    
     
 }
       
@@ -39,7 +56,7 @@ a{
 }
       
 .cabecalho-menu-item {
-    font-family: 'Roboto', sem serifa;;/*trocar fonte*/
+    font-family: 'Roboto', sem serifa;/*trocar fonte*/
     color: white;
     font-weight: 400px;
     font-size: 18px
@@ -48,12 +65,13 @@ a{
 
 main{
     margin-bottom: 48px;
-    border-top: 0.4px solid #1a1919;
+    
 }
   
 .conteudo-principal {
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: space-around;
 }
@@ -61,18 +79,19 @@ main{
 .conteudo-principal-escrito {
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
     gap: 15px;
 }
   
-h1{
+#h1{
     font-family: 'Roboto Bold', 'Arial Narrow Bold', sans-serif;
-    font-weight: 400;
-    font-size: 70px;
+    font-weight: 400%;
+    font-size: 420%;
     color: #2d9b87;
     line-height: 0px;
 }
   
-h2{
+.h2{
     font-family:'Roboto Bold', 'Arial Narrow Bold', sans-serif;
     font-weight: 400;
     font-size: 35px;
@@ -80,6 +99,7 @@ h2{
 }
 p{
     font-family: 'Roboto', Arial, Helvetica, sans-serif;
+    text-align: justify;
 }
   
 .conteudo-principal-escrito-botao {
@@ -105,6 +125,7 @@ p{
 .google{
     display: flex;
     flex-direction:column;
+   
     align-items: center;
     justify-content: space-around;
     gap: 10px 30px;
@@ -112,6 +133,7 @@ p{
 #1{
     display: flex;
     flex-direction: row;
+    
     align-items: center;
     justify-content: space-around;
     gap: 15px;
@@ -125,6 +147,7 @@ p{
 .suporte{
     display: flex;
     flex-direction:column;
+    
     align-items: center;
     justify-content: space-around;
     gap: 10px 30px;
@@ -132,6 +155,7 @@ p{
 #3{
     display: flex;
     flex-direction: row;
+    
     align-items: center;
     justify-content: space-around;
     gap: 15px;
@@ -149,6 +173,7 @@ p{
 .row {
     display: flex;
     justify-content: center;
+    
     align-items: center;
 }
 
@@ -189,8 +214,8 @@ p{
     gap: 10px 30px;
 }
 
-footer{
-    background-color: black;
+.autor{
+    background-color:  rgb(28,28,52);
     color: white;
     text-align: center;
 }
@@ -198,4 +223,13 @@ footer{
 .redesocial{
     height: 30px;
     gap: 10px;
+}
+
+.templates{
+    font-family: 'Roboto Bold', 'Arial Narrow Bold', sans-serif;
+    font-weight: 400%;
+    font-size: 420%;
+    color: #fbfffe;
+    line-height: 0px;
+    
 }
